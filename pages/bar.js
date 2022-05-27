@@ -21,7 +21,7 @@ import {
   barPrimaryYAxis,
 } from "../data/dummy";
 
-const bar = () => {
+const Bar = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -68,4 +68,4 @@ const bar = () => {
   );
 };
 
-export default bar;
+export default Bar;

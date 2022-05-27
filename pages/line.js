@@ -5,7 +5,7 @@ import PageHeader from "../components/page-header/PageHeader";
 import { useSelector } from "react-redux";
 import LineChart from "../components/page-layout/charts/LineChart";
 
-const line = () => {
+const Line = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -35,4 +35,4 @@ const line = () => {
   );
 };
 
-export default line;
+export default Line;

@@ -18,7 +18,7 @@ import {
   areaPrimaryYAxis,
 } from "../data/dummy";
 
-const area = () => {
+const Area = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -63,4 +63,4 @@ const area = () => {
   );
 };
 
-export default area;
+export default Area;

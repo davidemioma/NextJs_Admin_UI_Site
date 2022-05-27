@@ -20,6 +20,7 @@ const colorPicker = () => {
       change={change}
     />
   );
+
   return (
     <>
       <div className="page_container">

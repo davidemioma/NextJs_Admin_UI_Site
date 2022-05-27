@@ -21,7 +21,7 @@ import {
   FinancialPrimaryYAxis,
 } from "../data/dummy";
 
-const financial = () => {
+const Financial = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -86,4 +86,4 @@ const financial = () => {
   );
 };
 
-export default financial;
+export default Financial;

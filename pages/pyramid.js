@@ -16,7 +16,7 @@ import {
 } from "@syncfusion/ej2-react-charts";
 import { PyramidData } from "../data/dummy";
 
-const pyramid = () => {
+const Pyramid = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -82,4 +82,4 @@ const pyramid = () => {
   );
 };
 
-export default pyramid;
+export default Pyramid;

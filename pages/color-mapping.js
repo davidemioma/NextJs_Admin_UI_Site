@@ -22,7 +22,7 @@ import {
   rangeColorMapping,
 } from "../data/dummy";
 
-const colorMapping = () => {
+const ColorMapping = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -82,4 +82,4 @@ const colorMapping = () => {
   );
 };
 
-export default colorMapping;
+export default ColorMapping;

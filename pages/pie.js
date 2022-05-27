@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import PieChart from "../components/page-layout/charts/Pie";
 import { pieChartData } from "../data/dummy";
 
-const pie = () => {
+const Pie = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -43,4 +43,4 @@ const pie = () => {
   );
 };
 
-export default pie;
+export default Pie;
