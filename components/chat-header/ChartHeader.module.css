@@ -1,0 +1,15 @@
+.chart_header h4 {
+  margin-bottom: -1.2rem;
+  color: lightgray;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.chart_header p {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.chart_header {
+  margin-bottom: 2.5rem;
+}

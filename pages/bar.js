@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Footer from "../components/page-layout/footer/Footer";
-import PageHeader from "../components/page-header/PageHeader";
+import ChartHeader from "../components/chat-header/Chartheader";
 import { useSelector } from "react-redux";
 import {
   ChartComponent,
@@ -35,7 +35,7 @@ const Bar = () => {
           <title>Bar</title>
         </Head>
 
-        <PageHeader category="Chart" title="Bar" />
+        <ChartHeader category="Chart" title="Bar" />
 
         <div>
           <p style={{ fontSize: "1.3rem", textAlign: "center" }}>

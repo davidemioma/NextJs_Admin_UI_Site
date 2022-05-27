@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Footer from "../components/page-layout/footer/Footer";
-import PageHeader from "../components/page-header/PageHeader";
+import ChartHeader from "../components/chat-header/Chartheader";
 import { useSelector } from "react-redux";
 import PieChart from "../components/page-layout/charts/Pie";
 import { pieChartData } from "../data/dummy";
@@ -20,7 +20,7 @@ const Pie = () => {
           <title>Pie</title>
         </Head>
 
-        <PageHeader category="Chart" title="Pie" />
+        <ChartHeader category="Chart" title="Pie" />
 
         <div>
           <p style={{ fontSize: "1.3rem", textAlign: "center" }}>

@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Footer from "../components/page-layout/footer/Footer";
-import PageHeader from "../components/page-header/PageHeader";
+import ChartHeader from "../components/chat-header/Chartheader";
 import { useSelector } from "react-redux";
 import Stacked from "../components/page-layout/charts/Stacked";
 
@@ -19,7 +19,7 @@ const StackedPage = () => {
           <title>Stacked</title>
         </Head>
 
-        <PageHeader category="Chart" title="Stacked" />
+        <ChartHeader category="Chart" title="Stacked" />
 
         <div>
           <p style={{ fontSize: "1.3rem", textAlign: "center" }}>

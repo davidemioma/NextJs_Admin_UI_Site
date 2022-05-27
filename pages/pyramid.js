@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Footer from "../components/page-layout/footer/Footer";
-import PageHeader from "../components/page-header/PageHeader";
+import ChartHeader from "../components/chat-header/Chartheader";
 import { useSelector } from "react-redux";
 import {
   AccumulationChartComponent,
@@ -30,7 +30,7 @@ const Pyramid = () => {
           <title>Pyramid</title>
         </Head>
 
-        <PageHeader category="Chart" title="Pyramid" />
+        <ChartHeader category="Chart" title="Pyramid" />
 
         <div>
           <p style={{ fontSize: "1.3rem", textAlign: "center" }}>

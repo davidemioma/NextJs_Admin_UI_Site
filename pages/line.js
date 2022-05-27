@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Footer from "../components/page-layout/footer/Footer";
-import PageHeader from "../components/page-header/PageHeader";
+import ChartHeader from "../components/chat-header/Chartheader";
 import { useSelector } from "react-redux";
 import LineChart from "../components/page-layout/charts/LineChart";
 
@@ -19,7 +19,7 @@ const Line = () => {
           <title>Line</title>
         </Head>
 
-        <PageHeader category="Chart" title="Line" />
+        <ChartHeader category="Chart" title="Line" />
 
         <div>
           <p style={{ fontSize: "1.3rem", textAlign: "center" }}>
