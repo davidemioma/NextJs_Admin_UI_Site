@@ -5,7 +5,7 @@ import PageHeader from "../components/page-header/PageHeader";
 import { useSelector } from "react-redux";
 import Stacked from "../components/page-layout/charts/Stacked";
 
-const Stacked = () => {
+const StackedPage = () => {
   const mode = useSelector((state) => state.theme.mode);
 
   return (
@@ -35,4 +35,4 @@ const Stacked = () => {
   );
 };
 
-export default Stacked;
+export default StackedPage;
