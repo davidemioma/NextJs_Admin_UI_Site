@@ -1,0 +1,95 @@
+.dark_mode .mobile,
+.dark_mode .desktop {
+  background: #33373e;
+}
+
+.dark_mode .contents {
+  background: #20232a;
+}
+
+.dark_mode p,
+.dark_mode span {
+  color: #ffffff;
+}
+
+.dark_mode h4 {
+  color: #d9d9d9;
+  font-weight: 200;
+}
+
+.light_mode .mobile,
+.light_mode .desktop {
+  background: #ffffff;
+}
+
+.light_mode .contents {
+  background: #f7f7f7;
+}
+
+.light_mode p,
+.light_mode span {
+  color: black;
+}
+
+.light_mode h4 {
+  color: #a6a6a6;
+  font-weight: 200;
+}
+
+.setting_icon {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1000;
+}
+
+.setting_icon button {
+  border-radius: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+}
+
+.mobile,
+.desktop,
+.contents {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.contents {
+  width: 100%;
+}
+
+.desktop {
+  width: 30%;
+}
+
+.mobile {
+  position: absolute;
+  width: 80%;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+@media screen and (min-width: 700px) {
+  .mobile {
+    display: none;
+  }
+
+  .layout {
+    display: flex;
+  }
+
+  .desktop {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .desktop {
+    display: none;
+  }
+}

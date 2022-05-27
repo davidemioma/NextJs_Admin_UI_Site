@@ -1,0 +1,84 @@
+.container {
+  padding: 1.5rem;
+}
+
+.header,
+.mode {
+  padding-bottom: 1rem;
+  border-bottom: 0.5px solid;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header span {
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+.header button {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: none;
+}
+
+.header button:hover {
+  background: lightgray;
+}
+
+.mode h2,
+.colors h2 {
+  font-size: 1.3rem;
+  opacity: 0.8;
+}
+
+.set_mode {
+  margin-bottom: 0.5rem;
+}
+
+.set_mode input {
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+
+.color_list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.color {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.color button {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.check_icon {
+  font-size: 20px;
+  color: white;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 1rem;
+  }
+}

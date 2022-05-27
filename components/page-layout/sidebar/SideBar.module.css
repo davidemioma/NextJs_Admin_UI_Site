@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  padding: 1.5rem;
+}
+
+.header,
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  gap: 0.7rem;
+  cursor: pointer;
+}
+
+.logo span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.link_item {
+  margin-bottom: 1rem;
+}
+
+.link_item h4 {
+  text-transform: uppercase;
+}
+
+.icon_dark,
+.icon_light {
+  font-size: 20px;
+}
+
+.icon_dark {
+  color: #fff;
+}
+
+.icon_light {
+  color: black;
+}
+
+@media screen and (min-width: 700px) {
+  .cancel_btn {
+    display: none;
+  }
+}

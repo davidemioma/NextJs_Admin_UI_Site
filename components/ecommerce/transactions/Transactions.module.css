@@ -1,0 +1,211 @@
+.dark,
+.light {
+  margin-bottom: 2rem;
+}
+
+.dark .transactions,
+.dark .sales,
+.dark .stats,
+.dark .branding,
+.dark .daily_activities {
+  background: #33373e;
+}
+
+.light .transactions,
+.light .sales,
+.light .stats,
+.light .branding,
+.light .daily_activities {
+  background: #fff;
+}
+
+.transactions,
+.stats,
+.branding,
+.daily_activities {
+  margin: 0 auto;
+  width: 400px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.transactions {
+  margin-bottom: 2.5rem;
+}
+
+.t_header,
+.sales_header,
+.stats_header,
+.branding_header,
+.daily_header,
+.t_item,
+.stats_item,
+.t_footer,
+.branding_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.t_header p,
+.sales_header p,
+.stats_header p,
+.branding_header p,
+.daily_header p {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.t_item_info,
+.stats_info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.t_item_info div p,
+.stats_info div p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: -1.2rem;
+}
+
+.t_list {
+  padding-bottom: 1rem;
+  border-bottom: 0.3px solid;
+}
+
+.t_footer,
+.branding_footer {
+  padding: 1rem 0 0 0;
+}
+
+.sales {
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.sales_header,
+.stats_header,
+.branding_header,
+.daily_header {
+  margin-bottom: 1rem;
+}
+
+.stats_header button,
+.branding_header button,
+.daily_header button {
+  background: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.highlight {
+  padding: 0.2rem 0.5rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+.branding_info {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 0.3px solid;
+}
+
+.b_item {
+  padding-right: 0.4rem;
+  border-right: 0.3px solid;
+}
+
+.b_item h4 {
+  font-size: 0.8rem;
+}
+
+.b_item p {
+  font-size: 0.9rem;
+}
+
+.teams,
+.leaders {
+  border-bottom: 0.3px solid;
+  padding: 0 0 1rem 0;
+}
+
+.team_list,
+.leaders_list {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.leader_item {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.flex_container {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.daily_activities img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.daily_title,
+.daily_author {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.daily_title {
+  margin-bottom: -0.8rem;
+}
+
+@media screen and (min-width: 320px) {
+  .stat_diagram {
+    overflow-x: scroll;
+  }
+
+  .stat_diagram::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .transactions,
+  .stats,
+  .branding,
+  .daily_activities {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .sales {
+    width: 650px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .sales {
+    width: 800px;
+  }
+
+  .flex_container {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+  }
+}

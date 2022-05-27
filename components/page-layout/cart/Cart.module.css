@@ -1,0 +1,61 @@
+.lists {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.item,
+.price,
+.price_controls,
+.checkout_info {
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  gap: 2rem;
+  border-bottom: 0.5px solid;
+}
+
+.item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.contents h4 {
+  text-transform: capitalize;
+  margin-bottom: -0.5rem;
+}
+
+.contents p {
+  font-size: 0.8rem;
+  opacity: 0.8;
+}
+
+.price {
+  margin-top: -1.2rem;
+  gap: 1rem;
+}
+
+.price h3 {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.price_controls div {
+  padding: 0.5rem;
+  border: 0.5px solid #404040;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.checkout_info {
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,23 @@
+.link_info {
+  display: flex;
+  align-items: center;
+  padding-left: 0.7rem;
+  cursor: pointer;
+  gap: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.link_info p {
+  text-transform: capitalize;
+}
+
+.dark_mode:hover,
+.light_mode:hover {
+  background: #e6e6e6;
+  border-radius: 10px;
+}
+
+.dark_mode:hover div,
+.dark_mode:hover p {
+  color: black;
+}

@@ -1,0 +1,156 @@
+.dark,
+.light {
+  margin: 2rem 0;
+}
+
+.dark .updates,
+.dark .yearly_sale {
+  background: #33373e;
+}
+
+.light .updates,
+.light .yearly_sale {
+  background: #fff;
+}
+
+.updates {
+  margin: 0 auto;
+  width: 95%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.title,
+.title_name,
+.details_budget {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  gap: 1rem;
+}
+
+.title_name {
+  gap: 0.5rem;
+}
+
+.title p {
+  flex: 1;
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+
+.details_container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.details {
+  padding: 0 2rem 0 1rem;
+  border-right: 0.5px solid;
+}
+
+.details_budget {
+  gap: 0.5rem;
+  margin-bottom: -1.3rem;
+}
+
+.details_budget span p,
+.details_expense span p {
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: -1.3rem;
+}
+
+.budget_amount {
+  background: #00e600;
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 0.4rem;
+  border-radius: 20px;
+}
+
+.sparkLine {
+  margin: 1rem 0;
+}
+
+.stacked {
+  display: flex;
+  justify-content: center;
+}
+
+.contents_earnings {
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.earnings,
+.yearly_sale {
+  margin: 0 auto;
+  width: 360px;
+  border-radius: 15px;
+}
+
+.earnings {
+  padding: 1rem;
+}
+
+.earnings_header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.earnings_header p,
+.sale_info p {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.price p {
+  margin-bottom: -1.5rem;
+}
+
+.yearly_sale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.sale_info p {
+  margin-bottom: -1.2rem;
+}
+
+@media screen and (max-width: 400px) {
+  .earnings,
+  .yearly_sale {
+    width: 90%;
+    overflow-x: scroll;
+  }
+
+  .earnings::-webkit-scrollbar,
+  .yearly_sale::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .updates {
+    width: 650px;
+  }
+
+  .contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .updates {
+    width: 800px;
+  }
+}

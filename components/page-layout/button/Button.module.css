@@ -1,0 +1,12 @@
+.view_btn {
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.view_btn button {
+  width: 100%;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+  white-space: nowrap;
+}

@@ -1,0 +1,56 @@
+.container {
+  position: absolute;
+  top: 3rem;
+  right: 20px;
+  z-index: 100;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.5px solid;
+}
+
+.profile img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.profile h4 {
+  margin-bottom: -0.5rem;
+}
+
+.profile p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.lists {
+  padding: 0.5rem 1rem;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.content h4 {
+  margin-bottom: -0.5rem;
+}
+
+.content p {
+  font-size: 0.8rem;
+}

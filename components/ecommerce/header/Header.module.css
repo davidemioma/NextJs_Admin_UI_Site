@@ -1,0 +1,115 @@
+.dark,
+.light {
+  padding: 0 1rem;
+}
+
+.dark .earnings,
+.dark .item {
+  background: #33373e;
+}
+
+.light .earnings,
+.light .item {
+  background: #fff;
+}
+
+.earnings,
+.item {
+  padding: 1rem;
+  border-radius: 10px;
+  height: 160px;
+}
+
+.earnings {
+  position: relative;
+  overflow: hidden;
+
+  margin-bottom: 2rem;
+}
+
+.earnings img,
+.info,
+.currency,
+.btn {
+  position: absolute;
+}
+
+.earnings img {
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+
+.info {
+  top: 0;
+}
+
+.info h4 {
+  margin-bottom: -1rem;
+}
+
+.info p {
+  font-size: 1.4rem;
+}
+
+.currency {
+  margin: 1rem;
+  top: 0;
+  right: 0;
+}
+
+.btn {
+  margin: 1rem 0;
+  bottom: 0;
+}
+
+.item p span {
+  font-size: 1.2rem;
+}
+
+.item .p_text {
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+}
+
+.earnings_list {
+  gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .item {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .dark,
+  .light {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .earnings {
+    width: 350px;
+    margin-bottom: 0;
+  }
+
+  .item {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .earnings {
+    width: 350px;
+  }
+
+  .item {
+    width: 250px;
+  }
+}

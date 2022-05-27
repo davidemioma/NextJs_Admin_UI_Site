@@ -1,0 +1,16 @@
+.page_header h4 {
+  margin-bottom: -1.2rem;
+  color: lightgray;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.page_header p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+}
+
+.page_header {
+  margin-bottom: 2.5rem;
+}

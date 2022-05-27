@@ -1,0 +1,46 @@
+.container,
+.left,
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  padding: 1.5rem;
+  justify-content: space-between;
+}
+
+.left {
+  position: relative;
+  gap: 1rem;
+}
+
+.profile {
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.profile:hover {
+  background: lightgray;
+  border-radius: 10px;
+}
+
+.profile img {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.profile p span {
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .left {
+    gap: 0.3rem;
+  }
+}

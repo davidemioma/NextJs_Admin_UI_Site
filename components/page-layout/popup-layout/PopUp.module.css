@@ -1,0 +1,83 @@
+.bg_dark,
+.bg_light {
+  padding: 1rem 1.5rem;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.bg_dark {
+  background: #33373e;
+}
+
+.bg_dark p,
+.bg_dark .header p,
+.bg_dark .children p {
+  color: #fff;
+}
+
+.bg_dark h4,
+.bg_dark .header h4,
+.bg_dark .children h4 {
+  color: #d9d9d9;
+  font-weight: bold;
+}
+
+.bg_light {
+  background: #ffffff;
+}
+
+.bg_light p,
+.bg_light .header p,
+.bg_light .children p {
+  color: black;
+}
+
+.bg_light h4,
+.bg_light .header h4,
+.bg_light .children h4 {
+  color: black;
+  font-weight: bold;
+}
+
+.header,
+.header div {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header div {
+  gap: 1rem;
+}
+
+.header p {
+  font-size: 0.8rem;
+}
+
+.header h4 {
+  font-size: 1rem;
+}
+
+.header button {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background: none;
+}
+
+.header button:hover {
+  background: lightgray;
+}
+
+@media screen and (max-width: 450px) {
+  .bg_dark,
+  .bg_light {
+    width: 300px;
+  }
+}
